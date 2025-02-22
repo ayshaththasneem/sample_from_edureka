@@ -16,4 +16,8 @@ public class Greeter {
   public String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
+  // Added by Tyler Good
+  public String goodbye(String someone) {
+      return String.format("Goodbye, %s!", someone);
+  }
 }
