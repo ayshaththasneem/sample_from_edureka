@@ -25,9 +25,8 @@
         <target>17</target>
       </configuration>
     </plugin>
-  </plugins>
 
-
+           
          <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-pmd-plugin</artifactId>
@@ -37,6 +36,9 @@
     <targetJdk>17</targetJdk>
   </configuration>
 </plugin>
+  </plugins>
+
+
          
 </build>
 
